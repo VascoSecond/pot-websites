@@ -8,7 +8,6 @@ set -euxo pipefail
 # Clean up any defaults
 rm -rf /etc/nginx/nginx.conf /etc/nginx/conf.d /var/lib/nginx /var/www
 
-# Set up Nginx folders
 mkdir -p /run/nginx
 mkdir -p /var/www
 mkdir -p /var/log/nginx
